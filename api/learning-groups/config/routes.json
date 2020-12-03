@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/learning-groups",
+      "handler": "learning-groups.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/learning-groups/count",
+      "handler": "learning-groups.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/learning-groups/:id",
+      "handler": "learning-groups.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/learning-groups",
+      "handler": "learning-groups.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/learning-groups/:id",
+      "handler": "learning-groups.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/learning-groups/:id",
+      "handler": "learning-groups.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

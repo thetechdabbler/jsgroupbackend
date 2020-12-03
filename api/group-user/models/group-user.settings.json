@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_users",
+  "info": {
+    "name": "Group User",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "learning_group": {
+      "model": "learning-groups"
+    },
+    "admin_user": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

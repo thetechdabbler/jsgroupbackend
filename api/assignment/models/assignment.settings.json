@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assignments",
+  "info": {
+    "name": "Assignment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

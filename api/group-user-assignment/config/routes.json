@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/group-user-assignments",
+      "handler": "group-user-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/group-user-assignments/count",
+      "handler": "group-user-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/group-user-assignments/:id",
+      "handler": "group-user-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/group-user-assignments",
+      "handler": "group-user-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/group-user-assignments/:id",
+      "handler": "group-user-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/group-user-assignments/:id",
+      "handler": "group-user-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

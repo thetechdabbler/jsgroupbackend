@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_user_assignments",
+  "info": {
+    "name": "Group Users Assignment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "assignments": {
+      "collection": "assignment"
+    },
+    "group_users": {
+      "collection": "group-user"
+    },
+    "solution": {
+      "type": "text"
+    }
+  }
+}
