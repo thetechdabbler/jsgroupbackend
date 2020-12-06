@@ -1,0 +1,10 @@
+{
+  "emmet.triggerExpansionOnTab": true,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Night Owl",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#1d8009"
+  }
+}
