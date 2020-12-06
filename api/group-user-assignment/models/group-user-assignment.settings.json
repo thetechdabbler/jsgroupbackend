@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "group_user_assignments",
   "info": {
-    "name": "Group Users Assignment",
+    "name": "Group User Assignment",
     "description": ""
   },
   "options": {
@@ -11,11 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "assignments": {
-      "collection": "assignment"
+    "assignment": {
+      "model": "assignment"
     },
-    "group_users": {
-      "collection": "group-user"
+    "group_user": {
+      "model": "group-user"
     },
     "solution": {
       "type": "text"
