@@ -17,11 +17,12 @@ module.exports = {
 
   create: async (ctx) => {
     if (Array.isArray(ctx.request.body)) {
+      console.log(strapi.services);
       return await Promise.all(
-        ctx.request.body.map(strapi.services.group_user_assignment.create)
+        ctx.request.body.map(strapi.services["group-user-assignment"].create)
       );
     } else {
-      return strapi.services.group_user_assignment.create(ctx.request.body);
+      return strapi.services["group-user-assignment"].create(ctx.request.body);
     }
   },
 };
